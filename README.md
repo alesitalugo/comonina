@@ -7,5 +7,3 @@ Una plataforma dirigida a mujeres jóvenes para que presten algun servicio profe
 npm install
 
 ```
-
-For the project to build, **these files must exist with exact filenames**:
