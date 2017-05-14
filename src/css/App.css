@@ -1,0 +1,342 @@
+.App {
+  text-align: center;
+}
+.main-content {
+  font-family: 'montserratregular';
+}
+.header {
+  height: 70px;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+}
+.header-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+.header-container--logo {
+  flex-grow: 1;
+}
+.header-container--content {
+  flex-grow: 1;
+}
+.header-links,
+.links {
+  display: flex;
+  justify-content: center;
+}
+.header-links-item,
+.links-item {
+  list-style-type: none;
+  padding: 10px;
+  display: block;
+  margin: 0 10px;
+}
+.header-links-link,
+.links-link {
+  color: #662c92;
+  cursor: pointer;
+  font-family: 'montserratlight';
+  text-decoration: none;
+}
+.link-styled {
+  border: 1px solid #662c92;
+  
+}
+.link-styled:last-child {
+  background-color: #662c92;
+}
+.link-styled:last-child a{
+  color: #fff;
+}
+.container {
+  width: 100vw;
+  height: calc(100vh - 70px);
+
+}
+.home-container {
+  background-image: url('../img/bgHome.jpg');
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 70px;
+}
+.container-body {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  flex-flow: column;
+}
+.container-body--slogan {
+  color: #fff;
+  text-align: center;
+  font-family: 'montserratbold';  
+}
+.container-body--title {
+  font-size: 28px;
+  line-height: 1.2;
+  margin: 0;
+}
+.searchbox {
+  width: auto;
+  margin: 20px auto;
+  display: flex;
+}
+.searchbox-input {
+  width: 300px;
+  height: 40px;
+}
+.searchbox-btn {
+  width: 45px;
+  height: 45px;
+  border: none;
+  margin: 0 10px;
+  background-color: #662c92;
+  cursor: pointer;
+}
+.home-container .links{
+  display: block;
+  width: 40%;
+  max-width: 350px;
+  margin: 0 auto;
+
+}
+.home-container .link-styled {
+  background-color: #662c92;
+  text-align: center;  
+  margin: 10px 0;  
+}
+.home-container .link-styled:last-child {
+  background-color: #421e5e;
+}
+.home-container .links-link {
+  color: #fff;
+  cursor: pointer;
+}
+
+.container-title {
+  color: #662c91;
+  font-family: 'montserratbold';    
+}
+.container-sectors {
+
+}
+.container-sectors--items {
+  width: 100%;
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+        flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+.container-sectors--item {
+  width: 265px;
+    border: 1px solid #808080;
+    height: 60px;
+        margin: 20px;
+    list-style-type: none;
+    cursor: pointer;
+        display: flex;
+    align-items: center;
+}
+.container-sectors--icon {
+  background-image: url('../img/sprite.png');
+  display: block;
+  background-repeat: no-repeat;
+  margin: 0 0px 0 5px;
+}
+.container-sectors--link {
+  text-align: center;
+  margin: 0 auto;
+  color: #808080;
+  font-family: 'montserratlight';  
+}
+.container-quienes {
+      height: 30%;
+    background: #662c91;
+    margin: 20px 0 0;
+    display: flex;
+}
+.container-quienes--body {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-quienes--title {
+  font-size: 28px;
+  line-height: 1.2;
+  margin: 0;
+  font-family: 'montserratbold';    
+  color: #fff;
+}
+.container-quienes--text {
+    color: #fff;
+    font-size: 14px;
+  font-family: 'montserratlight';  
+  text-align: center;    
+  max-width: 960px;
+
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container-porque {
+  height: 70%;
+  width: 100%;
+    background-image: url('../img/porque.jpg');
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-content: center;
+}
+.container-porque--body {
+  width: 80%;
+  margin: 0 auto;
+}
+.container-porque--title {
+  margin: 20px 0 ;
+  text-align: center;
+  color :#fff;
+}
+.container-porque--content {
+  display: flex;
+  margin: 40px 0 0;
+}
+.container-porque--item {
+  width: 300px;
+  margin: 0 45px;
+    font-family: 'montserratlight';
+
+  text-align: center;
+}
+.container-item--title {
+  color: #bdaccd;
+  font-size: 16px;
+}
+.container-item--text {
+  color:#fff;
+  font-size: 14px;
+}
+.postulate-container {
+  height: 250px;
+}
+.networking-container {
+      width: 100%;
+    height: 200px;
+    display: flex;
+}
+.networking-container--item {
+  width: 50%;
+}
+.contacto-item {
+  background-color: #9f9f9f;
+}
+.net-item {
+  background-color: #d1d1d1;
+}
+.footer {
+  width: 100%;
+  height: 40px;
+  background-color: #5c5c5c;    
+}
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.postulate-link {
+  background-color : #662c91;
+  width: 250px;
+  height: 40px;
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: 'montserratlight';
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.networking-container--body {
+  width: 270px;
+  text-align: left;
+    display: flex;
+    flex-flow: column;
+  
+    margin: 40px auto 0;
+}
+.networking-links {
+  display: flex;
+}
+.networking-link {
+  color: #fff;
+  cursor: pointer;
+}
+.footer-container {
+  padding-top: 10px;
+}
+.footer {
+    color: #fff;
+  font-family: 'montserratlight';    
+}
+.footer-link {
+  flex-grow: 1;
+  text-align: right;  
+}
+.footer-text {
+  margin: 0;
+  flex-grow: 1;
+}
+.results {
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+  margin: 100px auto;
+}
+.search-results {
+      width: 677px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.results-container {
+      width: 980px;
+    margin: 0 auto;
+}
+.results-sidebar {
+      width: 100%;
+    background: #f4f4f4;
+    margin: 100px auto;
+
+}
+.results-sidebar img {
+      margin: 0 auto;
+    width: 100%;
+}
+.results-content {
+      width: 100%;
+      margin: 0 auto;
+}
+.results-content img{
+      position: relative;
+    left: -160px;
+}
+.results-content--body {
+    background-color: #fff;   
+}
+.results-sidebar--title {
+
+}
